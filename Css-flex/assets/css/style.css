@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.card-list {
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    /* nowrap wrap wrap-reverse */
+}
+
+.col-3 {
+    width: 25%;
+    color: green;
+}
+
+.card-list div:nth-child(1) {
+    /* height: 500px; */
+}
+
+.card-list div:nth-child(2) {
+    /* height: 250px; */
+}
+
+.card-list div:nth-child(3) {
+    /* height: 100px; */
+}
